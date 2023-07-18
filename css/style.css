@@ -20,6 +20,7 @@
 .header-section{
     margin: auto 120px;
     margin-top: 50px;
+    margin-bottom: 6.25rem;
 }
 .navbar{
     display: flex;
@@ -64,4 +65,66 @@
     background-image: url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
     background-size: 100%;
+}
+/* marketing style */
+hr{
+    margin: 0px 165px;
+    /* height: 10px; */
+    fill: rgba(206, 218, 192, 0) 50.38%;
+}
+.digital-marketing-platform{
+    text-align: center;
+    margin: 0px 165px;
+    
+}
+.digital-marketing-platform img{
+    padding: 40px 60px;
+}
+
+
+
+/* responsive styles */
+@media screen and (max-width:576px) {
+    .header-section{
+        margin: 10px;
+    }
+    .navbar
+    {
+        flex-direction: column;
+    }
+    .navbar ul
+    {
+       display: none;
+    }
+    .top-banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+        
+    }
+    .btn-primary{
+        margin: 20px 0px;
+    }
+    .banner-info-container{
+        margin-top: 3rem;
+    }
+    hr{
+        display: none;
+    }
+    .digital-marketing-platform img{
+        padding: 0px;
+        
+        margin: 10px 0px;
+        width: 5rem;
+        height: 0.9rem;
+    }
+    .digital-marketing-platform{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
