@@ -1,0 +1,67 @@
+/* shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap');
+*{
+    background-color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+}
+.text-color{
+    color: #3A3A3A;
+}
+.btn-primary {
+    color: #FFF;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: #E02C6D;
+    border: none;
+    padding: 15px 20px;
+}
+
+/* header styles */
+.header-section{
+    margin: auto 120px;
+    margin-top: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.navbar ul li{
+    margin-right: 2rem;
+    list-style: none;
+}
+/* top banner style */
+.top-banner{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size: 3.25rem;
+    margin: 0px;
+}
+.banner-description{
+    margin: 1rem 0px;
+}
+.arrow{
+    color: white;
+    background-color: #E02C6D;
+    padding-left:2px;
+}
+.banner-img img{
+    width: 100%;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
